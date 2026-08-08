@@ -54,10 +54,12 @@
 	{
 		"name": "Sandalwoods",
 		"resourceType": "Bonus",
-		"uniques": ["Not shown on world screen", 
-					"Cannot be traded", 
-					"Excluded from map editor", 
-					"Will not be displayed in Civilopedia"]
+		"uniques": [
+			"Not shown on world screen", 
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	{
 		"name": "Aromatherapy",
@@ -68,7 +70,7 @@
 	
 	// Stockpiled resources
 	{
-		"name": "STP-1",	// Seren taun global, Maximus mover
+		"name": "STP-1",	// Seren taun national, Maximus mover
 		"resourceType": "Strategic",
 		"uniques": [
 			"Not shown on world screen", 

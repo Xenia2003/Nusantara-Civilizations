@@ -1,8 +1,7 @@
 [
-	// Aceh
+	// Iskandar Muda of Aceh
 	{
-		"name": "Iskandar Muda",
-		"preferredVictoryType": "Scientific",
+		"name": "Marhum Mahkota Alam",
 		
 		"culture": 4,
 		"faith": 4,
@@ -14,6 +13,7 @@
 		
 		"military": 6,
 		"aggressive": 5,
+		"denounceWillingness": 4,
 		"declareWar": 5,
 		"commerce": 5,
 		"diplomacy": 6,
@@ -21,27 +21,31 @@
 		"expansion": 7,
 		
 		"priorities": {
-			"Tradition": 10,
-			"Liberty": 30,
-			"Honor": 0,
-			"Piety": 0,
-			"Patronage": 10,
-			"Commerce": 10,
-			"Rationalism": 50,
-			"Freedom": 10,
-			"Autocracy": 10,
-			"Order": 40
-		}
+			"Tradition": 5,
+			"Liberty": 6,
+			"Honor": 3,
+			"Piety": 4,
+			"Patronage": 4,
+			"Commerce": 6,
+			"Rationalism": 9,
+			"Freedom": 7,
+			"Autocracy": 3,
+			"Order": 7
+		},
+		
+		"uniques": [
+			"[+10]% weight to [Gunongan] for AI decisions",
+			"[+20]% weight to [Harbor] for AI decisions"
+		]
 	},
 	
-	// Batak
+	// Sisingamangaraja XII of Batak
 	{
-		"name": "Sisingamangaraja XII",
-		"preferredVictoryType": "Cultural",
+		"name": "Pandita Raja",
 		
 		"culture": 8,
 		"faith": 7,
-		"food": 7,
+		"food": 6,
 		"gold": 4,
 		"happiness": 5,
 		"production": 5,
@@ -49,6 +53,7 @@
 		
 		"military": 5,
 		"aggressive": 4,
+		"denounceWillingness": 7,
 		"declareWar": 3,
 		"commerce": 3,
 		"diplomacy": 7,
@@ -56,26 +61,70 @@
 		"expansion": 3,
 		
 		"priorities": {
-			"Tradition": 30,
-			"Liberty": 10,
-			"Honor": 0,
-			"Piety": 20,
-			"Patronage": 10,
-			"Commerce": 10,
-			"Rationalism": 0,
-			"Freedom": 50,
-			"Autocracy": 0,
-			"Order": 10
-		}
+			"Tradition": 8,
+			"Liberty": 5,
+			"Honor": 3,
+			"Piety": 6,
+			"Patronage": 5,
+			"Commerce": 5,
+			"Rationalism": 4,
+			"Freedom": 8,
+			"Autocracy": 3,
+			"Order": 4
+		},
+		
+		"uniques": [
+			"[+15]% weight to [Bale Pasogit] for AI decisions",
+			"[+15]% weight to [Garden] for AI decisions"
+		]
 	},
 	
-	// Srivijaya
+	// Kedah of Jambi
 	{
-		"name": "Balaputradewa",
+		"name": "Induk Pucuk Anak Sendi",
+		
+		"culture": 8,
+		"faith": 6,
+		"food": 6,
+		"gold": 4,
+		"happiness": 5,
+		"production": 5,
+		"science": 5,
+		
+		"military": 5,
+		"aggressive": 3,
+		"denounceWillingness": 6,
+		"declareWar": 4,
+		"commerce": 6,
+		"diplomacy": 5,
+		"loyal": 5,
+		"expansion": 4,
+		
+		"priorities": {
+			"Tradition": 7,
+			"Liberty": 5,
+			"Honor": 4,
+			"Piety": 4,
+			"Patronage": 3,
+			"Commerce": 5,
+			"Rationalism": 6,
+			"Freedom": 8,
+			"Autocracy": 6,
+			"Order": 6
+		},
+		
+		"uniques": [
+			"[+30]% weight to [Walls] for AI decisions"
+		]
+	},
+	
+	// Balaputradewa of Srivijaya
+	{
+		"name": "Suwarnadwipa Emperor",
 		"preferredVictoryType": "Domination",
 		
 		"culture": 3,
-		"faith": 7,
+		"faith": 5,
 		"food": 5,
 		"gold": 5,
 		"happiness": 5,
@@ -84,6 +133,7 @@
 		
 		"military": 9,
 		"aggressive": 8,
+		"denounceWillingness": 5,
 		"declareWar": 7,
 		"commerce": 6,
 		"diplomacy": 4,
@@ -91,34 +141,40 @@
 		"expansion": 8,
 		
 		"priorities": {
-			"Tradition": 0,
-			"Liberty": 30,
-			"Honor": 20,
-			"Piety": 0,
-			"Patronage": 0,
-			"Commerce": 10,
-			"Rationalism": 10,
-			"Freedom": 10,
-			"Autocracy": 50,
-			"Order": 10
-		}
+			"Tradition": 3,
+			"Liberty": 6,
+			"Honor": 6,
+			"Piety": 2,
+			"Patronage": 4,
+			"Commerce": 5,
+			"Rationalism": 5,
+			"Freedom": 4,
+			"Autocracy": 8,
+			"Order": 4
+		},
+		
+		"uniques": [
+			"[+10]% weight to [Barracks] for AI decisions",
+			"[+20]% weight to [Temple] for AI decisions"
+		]
 	},
 	
-	// Sunda
+	// Siliwangi of Sunda
 	{
-		"name": "Siliwangi",
+		"name": "Maung Bodas",
 		"preferredVictoryType": "Cultural",
 		
-		"culture": 8,
-		"faith": 6,
-		"food": 7,
-		"gold": 5,
-		"happiness": 5,
+		"culture": 7,
+		"faith": 5,
+		"food": 5,
+		"gold": 6,
+		"happiness": 4,
 		"production": 5,
 		"science": 4,
 		
 		"military": 3,
 		"aggressive": 2,
+		"denounceWillingness": 4,
 		"declareWar": 2,
 		"commerce": 6,
 		"diplomacy": 6,
@@ -126,22 +182,27 @@
 		"expansion": 3,
 		
 		"priorities": {
-			"Tradition": 30,
-			"Liberty": 10,
-			"Honor": 0,
-			"Piety": 10,
-			"Patronage": 20,
-			"Commerce": 20,
-			"Rationalism": 10,
-			"Freedom": 50,
-			"Autocracy": 0,
-			"Order": 10
-		}
+			"Tradition": 6,
+			"Liberty": 5,
+			"Honor": 3,
+			"Piety": 3,
+			"Patronage": 5,
+			"Commerce": 5,
+			"Rationalism": 5,
+			"Freedom": 8,
+			"Autocracy": 3,
+			"Order": 5
+		},
+		
+		"uniques": [
+			"[+10]% weight to [Temple] for AI decisions",
+			"[-10]% weight to [Military Academy] for AI decisions"
+		]
 	},
 	
-	// Medang
+	// Rakai Panangkaran of Medang
 	{
-		"name": "Rakai Panangkaran",
+		"name": "Grand Builder",
 		"preferredVictoryType": "Cultural",
 		
 		"culture": 6,
@@ -154,6 +215,7 @@
 		
 		"military": 5,
 		"aggressive": 2,
+		"denounceWillingness": 5,
 		"declareWar": 2,
 		"commerce": 5,
 		"diplomacy": 7,
@@ -161,23 +223,66 @@
 		"expansion": 3,
 		
 		"priorities": {
-			"Tradition": 30,
-			"Liberty": 10,
-			"Honor": 0,
-			"Piety": 20,
-			"Patronage": 10,
-			"Commerce": 10,
-			"Rationalism": 0,
-			"Freedom": 50,
-			"Autocracy": 0,
-			"Order": 10
-		}
+			"Tradition": 7,
+			"Liberty": 5,
+			"Honor": 3,
+			"Piety": 6,
+			"Patronage": 5,
+			"Commerce": 5,
+			"Rationalism": 4,
+			"Freedom": 7,
+			"Autocracy": 3,
+			"Order": 7
+		},
+		
+		"uniques": [
+			"[+20]% weight to [Workshop] for AI decisions",
+			"[+10]% weight to [Candi Sewu] for AI decisions"
+		]
 	},
 	
-	// Demak
+	// Hayam Wuruk of Majapahit
+	{
+		"name": "Nusantara Unifier",
+		
+		"culture": 4,
+		"faith": 2,
+		"food": 5,
+		"gold": 6,
+		"happiness": 6,
+		"production": 6,
+		"science": 7,
+		
+		"military": 8,
+		"aggressive": 8,
+		"denounceWillingness": 7,
+		"declareWar": 7,
+		"commerce": 3,
+		"diplomacy": 5,
+		"loyal": 2,
+		"expansion": 8,
+		
+		"priorities": {
+			"Tradition": 5,
+			"Liberty": 7,
+			"Honor": 9,
+			"Piety": 0,
+			"Patronage": 6,
+			"Commerce": 6,
+			"Rationalism": 6,
+			"Freedom": 4,
+			"Autocracy": 9,
+			"Order": 4
+		},
+		
+		"uniques": [
+			"[+30]% weight to [Circus] for AI decisions"
+		]
+	},
+	
+	// Trenggana of Demak
 	{
 		"name": "Trenggana",
-		//"preferredVictoryType": "Domination",
 		
 		"culture": 3,
 		"faith": 8,
@@ -189,6 +294,7 @@
 		
 		"military": 7,
 		"aggressive": 7,
+		"denounceWillingness": 5,
 		"declareWar": 5,
 		"commerce": 4,
 		"diplomacy": 3,
@@ -196,23 +302,27 @@
 		"expansion": 7,
 		
 		"priorities": {
-			"Tradition": 30,
-			"Liberty": 10,
-			"Honor": 10,
-			"Piety": 0,
-			"Patronage": 0,
-			"Commerce": 10,
-			"Rationalism": 20,
-			"Freedom": 40,
-			"Autocracy": 10,
-			"Order": 40
-		}
+			"Tradition": 6,
+			"Liberty": 6,
+			"Honor": 5,
+			"Piety": 5,
+			"Patronage": 4,
+			"Commerce": 4,
+			"Rationalism": 6,
+			"Freedom": 7,
+			"Autocracy": 4,
+			"Order": 7
+		},
+		
+		"uniques": [
+			"[+15]% weight to [Shrine] for AI decisions",
+			"[+15]% weight to [Library] for AI decisions"
+		]
 	},
 	
-	// Banten
+	// Tirtayasa of Banten
 	{
 		"name": "Tirtayasa",
-		"preferredVictoryType": "Scientific",
 		
 		"culture": 2,
 		"faith": 6,
@@ -223,7 +333,8 @@
 		"science": 8,
 		
 		"military": 6,
-		"aggressive": 5,
+		"aggressive": 4,
+		"denounceWillingness": 4,
 		"declareWar": 5,
 		"commerce": 7,
 		"diplomacy": 6,
@@ -231,23 +342,27 @@
 		"expansion": 5,
 		
 		"priorities": {
-			"Tradition": 30,
-			"Liberty": 10,
-			"Honor": 10,
-			"Piety": 0,
-			"Patronage": 0,
-			"Commerce": 10,
-			"Rationalism": 20,
-			"Freedom": 40,
-			"Autocracy": 10,
-			"Order": 40
-		}
+			"Tradition": 7,
+			"Liberty": 7,
+			"Honor": 5,
+			"Piety": 4,
+			"Patronage": 4,
+			"Commerce": 5,
+			"Rationalism": 8,
+			"Freedom": 7,
+			"Autocracy": 4,
+			"Order": 7
+		},
+		
+		"uniques": [
+			"[+15]% weight to [Walls] for AI decisions",
+			"[+15]% weight to [Temple] for AI decisions"
+		]
 	},
 	
-	// Bone
+	// Arung Palakka of Bone
 	{
 		"name": "Arung Palakka",
-		"preferredVictoryType": "Diplomatic",
 		
 		"culture": 3,
 		"faith": 2,
@@ -257,8 +372,9 @@
 		"production": 7,
 		"science": 6,
 		
-		"military": 8,
+		"military": 7,
 		"aggressive": 6,
+		"denounceWillingness": 8,
 		"declareWar": 5,
 		"commerce": 3,
 		"diplomacy": 5,
@@ -266,23 +382,67 @@
 		"expansion": 7,
 		
 		"priorities": {
-			"Tradition": 10,
-			"Liberty": 10,
-			"Honor": 30,
-			"Piety": 0,
-			"Patronage": 10,
-			"Commerce": 10,
-			"Rationalism": 10,
-			"Freedom": 10,
-			"Autocracy": 50,
-			"Order": 10
-		}
+			"Tradition": 5,
+			"Liberty": 5,
+			"Honor": 7,
+			"Piety": 3,
+			"Patronage": 5,
+			"Commerce": 5,
+			"Rationalism": 5,
+			"Freedom": 5,
+			"Autocracy": 8,
+			"Order": 5
+		},
+		
+		"uniques": [
+			"[+20]% weight to [Barracks] for AI decisions",
+			"[+10]% weight to [Amphitheater] for AI decisions"
+		]
 	},
 	
-	// Gorontalo
+	// La Tumparasi of Buton
+	{
+		"name": "La Tumparasi",
+		
+		"culture": 6,
+		"faith": 6,
+		"food": 7,
+		"gold": 5,
+		"happiness": 5,
+		"production": 6,
+		"science": 6,
+		
+		"military": 4,
+		"aggressive": 2,
+		"denounceWillingness": 4,
+		"declareWar": 3,
+		"commerce": 4,
+		"diplomacy": 7,
+		"loyal": 6,
+		"expansion": 4,
+		
+		"priorities": {
+			"Tradition": 7,
+			"Liberty": 4,
+			"Honor": 3,
+			"Piety": 6,
+			"Patronage": 4,
+			"Commerce": 5,
+			"Rationalism": 6,
+			"Freedom": 7,
+			"Autocracy": 4,
+			"Order": 7
+		},
+		
+		"uniques": [
+			"[+10]% weight to [Granary] for AI decisions",
+			"[+20]% weight to [Aqueduct] for AI decisions"
+		]
+	},
+	
+	// Ilahudu of Gorontalo
 	{
 		"name": "Ilahudu",
-		"preferredVictoryType": "Diplomatic",
 		
 		"culture": 3,
 		"faith": 6,
@@ -295,29 +455,34 @@
 		"military": 7,
 		"aggressive": 6,
 		"declareWar": 5,
+		"denounceWillingness": 5,
 		"commerce": 5,
-		"diplomacy": 5,
+		"diplomacy": 4,
 		"loyal": 3,
 		"expansion": 7,
 		
 		"priorities": {
-			"Tradition": 10,
-			"Liberty": 20,
-			"Honor": 10,
-			"Piety": 10,
-			"Patronage": 10,
-			"Commerce": 20,
-			"Rationalism": 20,
-			"Freedom": 10,
-			"Autocracy": 50,
-			"Order": 10
-		}
+			"Tradition": 4,
+			"Liberty": 6,
+			"Honor": 5,
+			"Piety": 4,
+			"Patronage": 5,
+			"Commerce": 6,
+			"Rationalism": 6,
+			"Freedom": 5,
+			"Autocracy": 7,
+			"Order": 5
+		},
+		
+		"uniques": [
+			"[+20]% weight to [Colosseum] for AI decisions",
+			"[+10]% weight to [Forge] for AI decisions"
+		]
 	},
 	
-	// Toraja
+	// Pong Tiku of Toraja
 	{
 		"name": "Pong Tiku",
-		"preferredVictoryType": "Cultural",
 		
 		"culture": 7,
 		"faith": 5,
@@ -325,10 +490,11 @@
 		"gold": 5,
 		"happiness": 3,
 		"production": 5,
-		"science": 7,
+		"science": 6,
 		
 		"military": 4,
 		"aggressive": 4,
+		"denounceWillingness": 3,
 		"declareWar": 2,
 		"commerce": 6,
 		"diplomacy": 7,
@@ -336,26 +502,189 @@
 		"expansion": 5,
 		
 		"priorities": {
-			"Tradition": 30,
-			"Liberty": 10,
-			"Honor": 0,
-			"Piety": 10,
-			"Patronage": 10,
-			"Commerce": 10,
-			"Rationalism": 20,
-			"Freedom": 50,
-			"Autocracy": 0,
-			"Order": 10
-		}
+			"Tradition": 7,
+			"Liberty": 5,
+			"Honor": 4,
+			"Piety": 4,
+			"Patronage": 5,
+			"Commerce": 5,
+			"Rationalism": 6,
+			"Freedom": 8,
+			"Autocracy": 3,
+			"Order": 6
+		},
+		
+		"uniques": [
+			"[+30]% weight to [Stable] for AI decisions"
+		]
 	},
 	
-	// Maguindanao
+	// Aliguyon of Igorot
 	{
-		"name": "Kudarat",
-		"preferredVictoryType": "Diplomatic",
+		"name": "Aliguyon",
+		
+		"culture": 7,
+		"faith": 4,
+		"food": 6,
+		"gold": 3,
+		"happiness": 5,
+		"production": 5,
+		"science": 5,
+		
+		"military": 5,
+		"aggressive": 7,
+		"denounceWillingness": 5,
+		"declareWar": 6,
+		"commerce": 6,
+		"diplomacy": 3,
+		"loyal": 5,
+		"expansion": 8,
+		
+		"priorities": {
+			"Tradition": 7,
+			"Liberty": 7,
+			"Honor": 5,
+			"Piety": 6,
+			"Patronage": 3,
+			"Commerce": 4,
+			"Rationalism": 7,
+			"Freedom": 8,
+			"Autocracy": 8,
+			"Order": 5
+		},
+		
+		"uniques": [
+			"[+10]% weight to [Mingol] for AI decisions",
+			"[-10]% weight to [Chariot Archer] for AI decisions"
+		]
+	},
+	
+	// Sumakwel of Madja-as
+	{
+		"name": "Sumakwel",
 		
 		"culture": 4,
-		"faith": 7,
+		"faith": 6,
+		"food": 5,
+		"gold": 5,
+		"happiness": 3,
+		"production": 6,
+		"science": 6,
+		
+		"military": 7,
+		"aggressive": 7,
+		"denounceWillingness": 6,
+		"declareWar": 6,
+		"commerce": 4,
+		"diplomacy": 5,
+		"loyal": 3,
+		"expansion": 5,
+		
+		"priorities": {
+			"Tradition": 5,
+			"Liberty": 5,
+			"Honor": 5,
+			"Piety": 3,
+			"Patronage": 4,
+			"Commerce": 4,
+			"Rationalism": 7,
+			"Freedom": 5,
+			"Autocracy": 7,
+			"Order": 7
+		},
+		
+		"uniques": [
+			"[+10]% weight to [Shrine] for AI decisions",
+			"[+20]% weight to [Bothoan] for AI decisions"
+		]
+	},
+	
+	// Humabon of Cebu
+	{
+		"name": "Humabon",
+		
+		"culture": 7,
+		"faith": 5,
+		"food": 5,
+		"gold": 7,
+		"happiness": 5,
+		"production": 5,
+		"science": 5,
+		
+		"military": 5,
+		"aggressive": 3,
+		"denounceWillingness": 3,
+		"declareWar": 4,
+		"commerce": 8,
+		"diplomacy": 7,
+		"loyal": 5,
+		"expansion": 5,
+		
+		"priorities": {
+			"Tradition": 5,
+			"Liberty": 6,
+			"Honor": 5,
+			"Piety": 5,
+			"Patronage": 7,
+			"Commerce": 5,
+			"Rationalism": 5,
+			"Freedom": 6,
+			"Autocracy": 6,
+			"Order": 6
+		},
+		
+		"uniques": [
+			"[+10]% weight to [Lighthouse] for AI decisions",
+			"[+20]% weight to [Amphitheater] for AI decisions"
+		]
+	},
+	
+	// Azim Ud-Din of Sulu
+	{
+		"name": "Azim Ud-Din",
+		
+		"culture": 4,
+		"faith": 4,
+		"food": 5,
+		"gold": 6,
+		"happiness": 5,
+		"production": 7,
+		"science": 5,
+		
+		"military": 8,
+		"aggressive": 7,
+		"denounceWillingness": 6,
+		"declareWar": 6,
+		"commerce": 4,
+		"diplomacy": 4,
+		"loyal": 5,
+		"expansion": 5,
+		
+		"priorities": {
+			"Tradition": 4,
+			"Liberty": 5,
+			"Honor": 6,
+			"Piety": 4,
+			"Patronage": 5,
+			"Commerce": 6,
+			"Rationalism": 5,
+			"Freedom": 5,
+			"Autocracy": 7,
+			"Order": 7
+		},
+		
+		"uniques": [
+			"[+10]% weight to [Harbor] for AI decisions",
+			"[+20]% weight to [Garay] for AI decisions"
+		]
+	},
+	
+	// Kudarat of Maguindanao
+	{
+		"name": "Kudarat",
+		
+		"culture": 4,
+		"faith": 6,
 		"food": 5,
 		"gold": 7,
 		"happiness": 6,
@@ -364,54 +693,108 @@
 		
 		"military": 4,
 		"aggressive": 3,
+		"denounceWillingness": 5,
 		"declareWar": 3,
-		"commerce": 8,
+		"commerce": 6,
 		"diplomacy": 7,
-		"loyal": 5,
+		"loyal": 6,
 		"expansion": 5,
 		
 		"priorities": {
-			"Tradition": 10,
-			"Liberty": 10,
-			"Honor": 10,
-			"Piety": 10,
-			"Patronage": 30,
-			"Commerce": 10,
-			"Rationalism": 10,
-			"Freedom": 10,
-			"Autocracy": 50,
-			"Order": 10
-		}
+			"Tradition": 5,
+			"Liberty": 5,
+			"Honor": 5,
+			"Piety": 5,
+			"Patronage": 7,
+			"Commerce": 5,
+			"Rationalism": 5,
+			"Freedom": 6,
+			"Autocracy": 5,
+			"Order": 6
+		},
+		
+		"uniques": [
+			"[+20]% weight to [Walls] for AI decisions",
+			"[+10]% weight to [Forge] for AI decisions"
+		]
+	},
+	
+	// Aman Dangat of Ivatan
+	{
+		"name": "Aman Dangat",
+		
+		"culture": 5,
+		"faith": 5,
+		"food": 5,
+		"gold": 5,
+		"happiness": 5,
+		"production": 6,
+		"science": 5,
+		
+		"military": 6,
+		"aggressive": 3,
+		"denounceWillingness": 4,
+		"declareWar": 3,
+		"commerce": 5,
+		"diplomacy": 5,
+		"loyal": 7,
+		"expansion": 5,
+		
+		"priorities": {
+			"Tradition": 5,
+			"Liberty": 7,
+			"Honor": 5,
+			"Piety": 5,
+			"Patronage": 5,
+			"Commerce": 5,
+			"Rationalism": 5,
+			"Freedom": 6,
+			"Autocracy": 6,
+			"Order": 6
+		},
+		
+		"uniques": [
+			"[+15]% weight to [Lighthouse] for AI decisions",
+			"[+15]% weight to [Walls] for AI decisions"
+		]
 	},
 	
 	// Shared Personalities
 	{
 		"name": "Aggressive Diplomator", // Malacca, Brunei
-		"preferredVictoryType": "Diplomatic",
+		
+		"culture": 4,
+		"faith": 5,
 		"food": 5,
+		"gold": 8,
+		"happiness": 4,
 		"production": 6,
 		"science": 6,
-		"culture": 3,
-		"gold": 8,
-		"faith": 5,
+		
 		"military": 7,
-		"warMongering": 7,
+		"aggressive": 5,
+		"denounceWillingness": 7,
+		"declareWar": 7,
+		"commerce": 5,
+		"diplomacy": 8,
+		"loyal": 2,
+		"expansion": 5,
+		
 		"priorities": {
-			"Tradition": 10,
-			"Liberty": 10,
-			"Honor": 10,
-			"Piety": 10,
-			"Patronage": 30,
-			"Commerce": 10,
-			"Rationalism": 10,
-			"Freedom": 10,
-			"Autocracy": 50,
-			"Order": 10
+			"Tradition": 5,
+			"Liberty": 5,
+			"Honor": 5,
+			"Piety": 5,
+			"Patronage": 7,
+			"Commerce": 5,
+			"Rationalism": 5,
+			"Freedom": 6,
+			"Autocracy": 8,
+			"Order": 6
 		}
 	},
 	{
-		"name": "Bullying Warmonger", // Majapait, Mataram, Ternate
-		"preferredVictoryType": "Domination",
+		"name": "Bullying Warmonger", // Mataram, Ternate
 		
 		"culture": 3,
 		"faith": 2,
@@ -421,30 +804,30 @@
 		"production": 7,
 		"science": 7,
 		
-		"military": 9,
-		"aggressive": 8,
+		"military": 8,
+		"aggressive": 7,
+		"denounceWillingness": 6,
 		"declareWar": 8,
 		"commerce": 4,
 		"diplomacy": 3,
 		"loyal": 2,
-		"expansion": 8,
+		"expansion": 7,
 		
 		"priorities": {
-			"Tradition": 0,
-			"Liberty": 20,
-			"Honor": 40,
-			"Piety": 0,
-			"Patronage": 0,
-			"Commerce": 20,
-			"Rationalism": 20,
-			"Freedom": 10,
-			"Autocracy": 50,
-			"Order": 10
+			"Tradition": 4,
+			"Liberty": 6,
+			"Honor": 7,
+			"Piety": 3,
+			"Patronage": 3,
+			"Commerce": 6,
+			"Rationalism": 6,
+			"Freedom": 5,
+			"Autocracy": 8,
+			"Order": 5
 		}
 	},
 	{
-		"name": "Centralized Creativity", // Jambi, Bolaang Mongondow, Larantuka, Nias
-		"preferredVictoryType": "Cultural",
+		"name": "Centralized Creativity", // Bolaang Mongondow, Larantuka, Nias
 		
 		"culture": 8,
 		"faith": 6,
@@ -456,6 +839,7 @@
 		
 		"military": 5,
 		"aggressive": 3,
+		"denounceWillingness": 5,
 		"declareWar": 2,
 		"commerce": 5,
 		"diplomacy": 7,
@@ -463,54 +847,53 @@
 		"expansion": 3,
 		
 		"priorities": {
-			"Tradition": 30,
-			"Liberty": 10,
-			"Honor": 0,
-			"Piety": 10,
-			"Patronage": 10,
-			"Commerce": 10,
-			"Rationalism": 20,
-			"Freedom": 50,
-			"Autocracy": 0,
-			"Order": 10
+			"Tradition": 7,
+			"Liberty": 5,
+			"Honor": 3,
+			"Piety": 5,
+			"Patronage": 5,
+			"Commerce": 5,
+			"Rationalism": 6,
+			"Freedom": 8,
+			"Autocracy": 3,
+			"Order": 4
 		}
 	},
 	{
 		"name": "Cultural Ambassador", // Bali, Kutai, Wewiku-Wehali
-		"preferredVictoryType": "Cultural",
 		
-		"culture": 8,
+		"culture": 7,
 		"faith": 6,
 		"food": 6,
-		"gold": 6,
-		"happiness": 4,
+		"gold": 5,
+		"happiness": 3,
 		"production": 4,
 		"science": 5,
 		
 		"military": 5,
 		"aggressive": 3,
+		"denounceWillingness": 4,
 		"declareWar": 4,
-		"commerce": 7,
+		"commerce": 6,
 		"diplomacy": 7,
 		"loyal": 5,
 		"expansion": 4,
 		
 		"priorities": {
-			"Tradition": 30,
-			"Liberty": 10,
-			"Honor": 0,
-			"Piety": 10,
-			"Patronage": 20,
-			"Commerce": 10,
-			"Rationalism": 10,
-			"Freedom": 50,
-			"Autocracy": 10,
-			"Order": 10
+			"Tradition": 7,
+			"Liberty": 4,
+			"Honor": 3,
+			"Piety": 4,
+			"Patronage": 6,
+			"Commerce": 5,
+			"Rationalism": 5,
+			"Freedom": 7,
+			"Autocracy": 4,
+			"Order": 4
 		}
 	},
 	{
 		"name": "Majestic Ingenuity", // Gowa-Tallo, Tidore
-		"preferredVictoryType": "Scientific",
 		
 		"culture": 5,
 		"faith": 3,
@@ -522,6 +905,7 @@
 		
 		"military": 7,
 		"aggressive": 4,
+		"denounceWillingness": 6,
 		"declareWar": 4,
 		"commerce": 5,
 		"diplomacy": 7,
@@ -529,54 +913,53 @@
 		"expansion": 5,
 		
 		"priorities": {
-			"Tradition": 10,
-			"Liberty": 30,
-			"Honor": 0,
-			"Piety": 0,
-			"Patronage": 10,
-			"Commerce": 10,
-			"Rationalism": 50,
-			"Freedom": 10,
-			"Autocracy": 10,
-			"Order": 40
+			"Tradition": 5,
+			"Liberty": 6,
+			"Honor": 5,
+			"Piety": 3,
+			"Patronage": 5,
+			"Commerce": 5,
+			"Rationalism": 8,
+			"Freedom": 4,
+			"Autocracy": 4,
+			"Order": 7
 		}
 	},
 	{
 		"name": "Mother to the People", // Pagaruyung, Patani, Tondo
-		"preferredVictoryType": "Diplomatic",
 		
 		"culture": 6,
-		"faith": 4,
+		"faith": 3,
 		"food": 7,
 		"gold": 7,
 		"happiness": 5,
-		"production": 5,
+		"production": 4,
 		"science": 5,
 		
 		"military": 6,
-		"aggressive": 4,
+		"aggressive": 3,
+		"denounceWillingness": 3,
 		"declareWar": 4,
-		"commerce": 6,
+		"commerce": 8,
 		"diplomacy": 8,
 		"loyal": 6,
 		"expansion": 5,
 		
 		"priorities": {
-			"Tradition": 30,
-			"Liberty": 10,
-			"Honor": 0,
-			"Piety": 0,
-			"Patronage": 20,
-			"Commerce": 10,
-			"Rationalism": 10,
-			"Freedom": 50,
-			"Autocracy": 10,
-			"Order": 10
+			"Tradition": 6,
+			"Liberty": 5,
+			"Honor": 3,
+			"Piety": 3,
+			"Patronage": 8,
+			"Commerce": 5,
+			"Rationalism": 5,
+			"Freedom": 8,
+			"Autocracy": 5,
+			"Order": 5
 		}
 	},
 	{
 		"name": "Organized Expansionist", // Luwu, Biak, Sarawak
-		"preferredVictoryType": "Domination",
 		"food": 6,
 		"production": 6,
 		"science": 5,
@@ -584,51 +967,53 @@
 		"gold": 5,
 		"faith": 3,
 		"military": 7,
-		"warMongering": 7,
+		"aggressive": 6,
+		"denounceWillingness": 7,
+		"declareWar": 7,
 		"priorities": {
-			"Tradition": 0,
-			"Liberty": 20,
-			"Honor": 30,
-			"Piety": 0,
-			"Patronage": 10,
-			"Commerce": 10,
-			"Rationalism": 10,
-			"Freedom": 0,
-			"Autocracy": 50,
-			"Order": 10
+			"Tradition": 3,
+			"Liberty": 6,
+			"Honor": 6,
+			"Piety": 3,
+			"Patronage": 5,
+			"Commerce": 5,
+			"Rationalism": 5,
+			"Freedom": 3,
+			"Autocracy": 7,
+			"Order": 5
 		}
 	},
 	{
 		"name": "Wealthy Protector", // Siak, Banjar, Lanfang
-		"preferredVictoryType": "Diplomatic",
 		
 		"culture": 5,
 		"faith": 5,
 		"food": 6,
 		"gold": 8,
 		"happiness": 4,
-		"production": 5,
+		"production": 4,
 		"science": 6,
 		
-		"military": 7,
+		"military": 6,
 		"aggressive": 3,
-		"declareWar": 3,
-		"commerce": 8,
+		"denounceWillingness": 5,
+		"declareWar": 4,
+		"commerce": 7,
 		"diplomacy": 6,
 		"loyal": 6,
 		"expansion": 5,
 		
 		"priorities": {
-			"Tradition": 10,
-			"Liberty": 10,
-			"Honor": 0,
-			"Piety": 0,
-			"Patronage": 30,
-			"Commerce": 20,
-			"Rationalism": 10,
-			"Freedom": 10,
-			"Autocracy": 10,
-			"Order": 50
+			"Tradition": 5,
+			"Liberty": 5,
+			"Honor": 4,
+			"Piety": 3,
+			"Patronage": 8,
+			"Commerce": 6,
+			"Rationalism": 5,
+			"Freedom": 4,
+			"Autocracy": 4,
+			"Order": 7
 		}
 	},
 ]

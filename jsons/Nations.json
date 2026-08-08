@@ -8,7 +8,7 @@
 			"leaderName": "Iskandar Muda",
 			"adjective": ["Acehnese"],
 			"startBias": ["Coast"],
-			"personality": "Iskandar Muda",
+			"personality": "Marhum Mahkota Alam",
 			"preferredVictoryType": "Scientific",
 			"favoredReligion": "Islam",
 
@@ -26,7 +26,7 @@
 			
 			"outerColor": [203,  5,  3],
 			"innerColor": [244,232,154],
-			"uniqueName": "Marhum Mahkota Alam",
+			"uniqueName": "Seuramo Mekkah",
 			"uniques": [
 				"[+2 Science] from each Trade Route",
 				"[+10]% [Science] <while the empire is happy>"
@@ -38,12 +38,13 @@
 			"spyNames": ["Fansuri","Thani","Jauhar ul-Alam","Syamsul","Meutia","Bereueh","Dhien","Keumala","Qory","Ichsan"]
 		},
 		
+		// Batak
 		{
 			"name": "Batak",						// 1550 - 1878
 			"leaderName": "Sisingamangaraja XII",
 			"adjective": ["Batak"],
 			"startBias": ["Marsh","Lakes"],
-			"personality": "Sisingamangaraja XII",
+			"personality": "Pandita Raja",
 			"preferredVictoryType": "Cultural",
 
 			"startIntroPart1": "",
@@ -84,7 +85,7 @@
 			"leaderName": "Kedah",
 			"adjective": ["Jambinese"],
 			"startBias": ["Grassland","Forest"],
-			"personality": "Centralized Creativity",
+			"personality": "Induk Pucuk Anak Sendi",
 			"preferredVictoryType": "Cultural",
 			"favoredReligion": "Islam",
 
@@ -169,6 +170,7 @@
 			"spyNames": ["Iskandar","Megat","Muzaffar","Alauddin Riayat","Mahmud","Ermieyati","Redzuan","Tuah","Jebat","Kasturi"]
 		},
 		
+		// Nias
 		{
 			"name": "Nias",
 			"leaderName": "Saönigeho",
@@ -245,7 +247,7 @@
 			"spyNames": ["Hatta","Koto","Piliang","Caniago","Jambak","Yamin","Tanjung","Adityawarman","Fatmawati","Irma"]
 		},
 		
-		// pATANI
+		// Patani
 		{
 			"name": "Patani", 						// 1400 - 1902
 			"leaderName": "Raja Hijau",
@@ -332,7 +334,7 @@
 			"leaderName": "Balaputradewa",
 			"adjective": ["Srivijayan"], // Malay Palembang
 			"startBias": ["Jungle","Coast"],
-			"personality": "Balaputradewa",
+			"personality": "Suwarnadwipa Emperor",
 			"preferredVictoryType": "Domination",
 			"favoredReligion": "Buddhism",
 
@@ -372,7 +374,7 @@
 			"leaderName": "Siliwangi",
 			"adjective": ["Sundanese"],
 			"startBias": ["Avoid [Desert]"],
-			"personality": "Siliwangi",
+			"personality": "Maung Bodas",
 			"preferredVictoryType": "Cultural",
 			"favoredReligion": "Hinduism",
 
@@ -392,10 +394,10 @@
 			"innerColor": [228,171,119],
 			"uniqueName": "Seren Taun",
 			"uniques": [
-				"Comment [Triggers global Seren Taun upon entering new era, cities produce 10% more [Gold] and [Culture] for 10 turns]",
-				"Comment [Constructing Temple in capital for the first time triggers local Seren Taun with triple duration and effect]",
+				"Comment [Triggers national Seren Taun upon entering new era, cities produce 10% more [Gold] and [Culture] for 10 turns]",
+				"Comment [Constructing Temple in capital for the first time triggers local Seren Taun with triple duration and effects]",
 				"Gain a free [STaun Bonus] [in capital] <hidden from users>",
-				"Gain a free [STaun Global] [in capital] <upon entering a new era> <hidden from users>",
+				"Gain a free [STaun National] [in capital] <upon entering a new era> <hidden from users>",
 				"Gain a free [STaun Local] [in capital] <upon constructing [Temple] [in capital]> <hidden from users>"
 			],
 			"cities": ["Pakuan Pajajaran","Kawali","Saunggalah","Kalapa","Kutamaya","Majalengka","Banten","Kampung Naga","Galunggung","Garut",
@@ -411,7 +413,7 @@
 			"leaderName": "Rakai Panangkaran",
 			"adjective": ["Javanese"],
 			"startBias": ["Plains"],
-			"personality": "Rakai Panangkaran",
+			"personality": "Grand Builder",
 			"preferredVictoryType": "Cultural",
 			"favoredReligion": "Buddhism",
 
@@ -484,7 +486,7 @@
 			"leaderName": "Hayam Wuruk",
 			"adjective": ["Javanese"],
 			"startBias": ["Coast"],
-			"personality": "Bullying Warmonger",
+			"personality": "Nusantara Unifier",
 			"preferredVictoryType": "Domination",
 			"favoredReligion": "Buddhism",
 
@@ -517,6 +519,7 @@
 			"spyNames": ["Wijaya","Soheeta","Jayanagara","Gitarja","Aji","Nyoman","Setyanto","Joko","Siti","Soegimin"]
 		},
 		
+		// Demak
 		{
 			"name": "Demak", 						// 1475–1554
 			"leaderName": "Trenggana",
@@ -715,8 +718,8 @@
 			"preferredVictoryType": "Diplomatic",
 			"favoredReligion": "Islam",
 
-			"startIntroPart1": "There is much to be done, Hidayatullah Halil Illah, the rightful Sultan of Banjar. Succeeding Tamjidullah II, who unilaterally seized the Banjar throne on Dutch orders, you called for independence for the Banjar people. Together with the Dayaks led by Dipati Jaya Raja and with the help of reliable commanders such as Antasari and Demang Lehman, you initiated an attack on the Dutch coal mines in Pengaron, marking the outbreak of the Banjarmasin War. Using guerrilla tactics, you roamed throughout the jungles, engaging in battles with the Dutch from one place to another. Undeterred, you fought against the much better-equipped Dutch.",
-			"startIntroPart2": "Alas, there are no great men without a mother's love, and you, religious sultan, who had to give up when victory was in sight - get another chance to restore your once proud sultanate. Can you protect the safety of your mother and your people? Can you build a civilization that will stand the test of time?",
+			//"startIntroPart1": "There is much to be done, Hidayatullah Halil Illah, the rightful Sultan of Banjar. Succeeding Tamjidullah II, who unilaterally seized the Banjar throne on Dutch orders, you called for independence for the Banjar people. Together with the Dayaks led by Dipati Jaya Raja and with the help of reliable commanders such as Antasari and Demang Lehman, you initiated an attack on the Dutch coal mines in Pengaron, marking the outbreak of the Banjarmasin War. Using guerrilla tactics, you roamed throughout the jungles, engaging in battles with the Dutch from one place to another. Undeterred, you fought against the much better-equipped Dutch.",
+			//"startIntroPart2": "Alas, there are no great men without a mother's love, and you, religious sultan, who had to give up when victory was in sight - get another chance to restore your once proud sultanate. Can you protect the safety of your mother and your people? Can you build a civilization that will stand the test of time?",
 			
 			"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
 			"attacked": "As predicted, you know only how to take. Come, then—choose the manner of your defeat.",
@@ -891,6 +894,7 @@
 			"leaderName": "La Tumparasi",
 			"adjective": ["Butuni"],
 			"startBias": ["Coast"],
+			"personality": "La Tumparasi",
 			"favouredReligion": "Islam",
 
 			"startIntroPart1": "Blessings upon you, noble La Tumparasi, ruler of Buton, the land of a thousand fortresses! The Butonese are an island people, proud and pious with a rich culture. Your civilization is a multicultural country that does not differentiate between groups of people from each class. By implementing the Murtabat Tujuh Kesultanan Buton, the life of the sultanate became more orderly and prosperous. The use of the Kampua currency system ensures a fair and honest trading system, which makes your sultanate richer.",
@@ -1260,6 +1264,7 @@
 			"leaderName": "Aliguyon",
 			"adjective": ["Igorot"],
 			"startBias": ["Mountain"],
+			"personality": "Aliguyon",
 			"preferredVictoryType": "Scientific",
 			"favoredReligion": "Christianity",
 			
@@ -1345,7 +1350,7 @@
 			"leaderName": "Sumakwel",
 			"adjective": ["Panayanon"],
 			"startBias": ["Coast","Pearls"],
-			//"personality": "",
+			"personality": "Sumakwel",
 			"preferredVictoryType": "Cultural",
 			"favoredReligion": "Buddhism",
 
@@ -1381,10 +1386,11 @@
 			"leaderName": "Humabon",
 			"adjective": ["Cebuano"],
 			"startBias": ["Coast"],
+			"personality": "Humabon",
 			"favoredReligion": "Christianity",
 
-			"startIntroPart1": " ",
-			"startIntroPart2": " ",
+			"startIntroPart1": "",
+			"startIntroPart2": "",
 
 			"declaringWar": "I have come across few as weak as you. Your name will be forgotten!",
 			"attacked": "I believe our peoples can work together. But alas, you resort to physical violence over words.",
@@ -1424,16 +1430,17 @@
 			"leaderName": "Azim Ud-Din I",
 			"adjective": ["Tausug"],
 			"startBias": ["Coast"],
+			"personality": "Azim Ud-Din",
 			"preferredVictoryType": "Cultural",
 			"favoredReligion": "Islam",
 
 			"startIntroPart1": "Stand proud, Azim Ud-Din I, the first of his name, sovereign ruler of the Sultanate of Sulu! Amidst the turquoise waters and coral isles of the Sulu Archipelago, your dynasty carved its name in history. Under your rule, the Sultanate of Sulu emerged as a maritime power, commanding trade routes and fostering cultural exchange in the Sulu Archipelago. Notorious for its so-called 'Moro Raids' or acts of piracy directed toward Spanish settlements, the sultanate managed to thwart Spanish attempts to subjugate the Moro people for centuries.",
-			"startIntroPart2": "Oh clever and virtuous Jamalul Kiram, will you rebuild Sulu and lead your people to even greater heights of glory? Will you take up the challenge and vanquish your foes under heaven's watchful eyes? Can you build a civilization that will stand the test of time?",
+			"startIntroPart2": "Oh clever and virtuous Azim Ud-Din, will you rebuild Sulu and lead your people to even greater heights of glory? Will you take up the challenge and vanquish your foes under heaven's watchful eyes? Can you build a civilization that will stand the test of time?",
 
 			"declaringWar": "Your transgressions are as deep as oceans. Prepare for war!",
 			"attacked": "I have raided many ships and fought many battles. You shall be the next.",
 			"defeated": "With God's help, may Sulu people one day reclaim its territory.",
-			"introduction": "I am Jamulul Kiram, Sultan of Sulu. It is my great pleasure to finally meet you.",
+			"introduction": "I am Azim Ud-Din, Sultan of Sulu. It is my great pleasure to finally meet you.",
 
 			"neutralHello": "Maunu-unu nakaw?",
 			"hateHello": "Oh, it's you.",
@@ -1496,7 +1503,7 @@
 			"leaderName": "Aman Dangat",
 			"adjective": ["Batanense"],
 			"startBias": ["Coast"],
-			//"personality": "Kudarat",
+			"personality": "Aman Dangat",
 			//"preferredVictoryType": "Diplomatic",
 			"favoredReligion": "Christianity",
 

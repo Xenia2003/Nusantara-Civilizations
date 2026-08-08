@@ -181,13 +181,14 @@
 			],
 		},
 		{
-			"name": "STaun Global",
+			"name": "STaun National",
 			"uniqueTo": "Sunda",
 			"cost": 1,
 			"uniques": [
 				"Unbuildable",
 				"Instantly provides [10] [STP-1]",
-				"Remove [STaun Global] [in this city]",
+				"Remove [STaun National] [in this city]",
+				"Suppress warning [is both granted free and could possibly be removed by triggers]",
 				"Will not be displayed in Civilopedia"
 			],
 		},
@@ -435,7 +436,7 @@
 			"science": 3,
 			"gold": 3,
 			"culture": 1,
-			"cityStrength": 2,
+			"cityStrength": 2.5,
 			"cost": 125,
 			"uniques": [
 				"Indicates the capital city",
@@ -574,6 +575,7 @@
 				"[+2 Food, +1 Culture] from every [Torajan Pasture] <for [5] turns>",
 				"[+2 Food, +1 Culture] from every [Plantation] <for [5] turns>",
 				"[+2 Food, +1 Culture] from every [Torajan Plantation] <for [5] turns>",
+				"Suppress warning [is both granted free and could possibly be removed by triggers]"
 				"Will not be displayed in Civilopedia"
 			],
 		},
@@ -821,8 +823,8 @@
 			"science": 3,
 			"gold": 3,
 			"culture": 1,
-			"cityStrength": 2,
-			"cost": 1,
+			"cityStrength": 2.5,
+			"cost": 0,
 			"uniques": [
 				"Indicates the capital city",
 				"Comment [Double yield starting from the Renaissance era]",
